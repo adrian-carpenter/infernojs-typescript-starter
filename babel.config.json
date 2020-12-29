@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-inferno",
+      {
+        "imports": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ],
+    [
+      "@babel/plugin-syntax-jsx"
+    ],
+    [
+      "@babel/plugin-syntax-import-meta"
+    ]
+  ],
+  "presets": [
+    "@babel/preset-typescript"
+  ]
+}
