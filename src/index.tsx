@@ -1,5 +1,4 @@
 import { render } from 'inferno'
-import './tailwind.output.css'
 import { App } from './App'
 import * as serviceWorker from './serviceWorker'
 
